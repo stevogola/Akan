@@ -20,12 +20,12 @@ function getName(){
     var day = new Date(year + "/" + month + "/" + day);
     var birthDay = day.getDay();
     if(male.checked==true){
-       alert("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + maleAkanNames[birthDay])
+       alert("You were born on " +daysOfWeek[birthDay]+ " Your Akan name is " + maleAkanNames[birthDay])
     }
     if(female.checked==true){
-       alert("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + femaleAkanNames[birthDay])
+       alert("You were born on " +daysOfWeek[birthDay]+ " Your Akan name is " + femaleAkanNames[birthDay])
     }
     if(not.checked==true){
-      alert("This system is only for those who proudly identifies themselves as Male or Female")
+      alert("Ghananian  Male or Female only ")
    }
     }
