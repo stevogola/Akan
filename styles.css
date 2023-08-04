@@ -1,0 +1,39 @@
+body {
+    border-style:ridge
+    border-color:none
+        
+  }
+
+.description {
+    height: 200px;
+    column-count: 2;
+    column-gap: 40px;
+    background-color: rgba(243, 164, 164, 0.075);
+    background-position: center;   
+}
+
+h1 {
+    text-decoration-line:underline
+    text-decoration-styl:none
+    column-span: all;
+    text-align: center;
+    color: rgb(110, 12, 5);
+}
+
+.btn {
+    background-color: rgb(91, 91, 95);
+}
+
+p {
+    color: rgb(66, 62, 62);
+    text-size-adjust: 40px;
+    margin: 15px;
+}
+
+.mind {
+    text-align: center;
+    background-color: rgb(117, 230, 11);
+    height: 500px;
+ }
+
+ 
